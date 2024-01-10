@@ -15,9 +15,10 @@ header {
 .logo {
     width: 500px;
     height: 280px;
+
 }
 
-nav  ul li {
+nav ul li {
     list-style: none;
     display: inline-block;
     margin: 0 10px;
@@ -28,7 +29,7 @@ a {
     text-transform: uppercase;
     font-weight: bold;
     color: black;
-    
+
 }
 
 /*Main*/
@@ -38,8 +39,8 @@ main {
     height: 300px;
     object-fit: cover;
     object-position: bottom;
-    
-    
+
+
 }
 
 h1,
@@ -48,6 +49,7 @@ h2 {
     text-decoration: underline;
     margin: 20px 0px;
 }
+
 /*footer*/
 
 footer {
@@ -60,9 +62,9 @@ footer {
 /*Destinos*/
 
 .contenedorDestinos {
-        margin: 20px;
-        border: 5px solid #333;
-        border-radius: 10px;
+    margin: 20px;
+    border: 5px solid #333;
+    border-radius: 10px;
 
 }
 
@@ -80,15 +82,16 @@ footer {
     font-weight: bold;
     font-size: 18px;
     text-transform: uppercase;
-    
-    
-    
+
+
+
 }
+
 /*iframe*/
 
 iframe {
     display: block;
-    margin: auto ;
+    margin: auto;
 }
 
 /*formulario*/
@@ -108,7 +111,7 @@ label {
 
 input[type="text"],
 textarea {
-    display:block ;
+    display: block;
     width: 100%;
     padding: 10px;
     border: 2px solid #ccc;
@@ -129,68 +132,56 @@ textarea {
     margin-top: 10px;
 }
 
-
-
-@media (max-width:1023px) {
-    /*Header*/
-
-    .encabezado {
-        height: auto;
-        flex-direction:column ;
-        text-align: center;
-
-    }
-
-    .encabezado  .boton {
-        display: none;
-
-    }
-
-    /*banner*/
-
-    .bannerContenido p {
-        max-width: 100%;
-        width: 500px;
-    }
-
-    /*destinos*/
-
-
-    .destinos {
-        margin: 5vh;
-        font-size: 2rem;
-
-    }
-
-    .destinos h3,
-    .destinos p {
-       font-size:inherit ; 
-    }
-
-
-    .contenedorDestinos div {
-        grid-template-columns:1fr 1fr ;
-        width: 1012px;
-        height: 586px;
-    
-    }
-
-    /*Guias*/
-
-    .contenedorGuias {
-        flex-direction: column;
-    }
-
+.encabezado .boton {
+    display: none;
 
 }
+
+/*banner*/
+
+.bannerContenido p {
+    max-width: 100%;
+    width: 500px;
+}
+
+/*destinos*/
+
+
+.destinos {
+    margin: 5vh;
+    font-size: 2rem;
+
+}
+
+.destinos h3,
+.destinos p {
+    font-size: inherit;
+}
+
+
+.contenedorDestinos div {
+    grid-template-columns: 1fr 1fr;
+    width: 1012px;
+    height: 586px;
+
+}
+
+/*Guias*/
+
+.contenedorGuias {
+    flex-direction: column;
+}
+
+
+
 .d-block w-100 {
     width: 1023px;
     height: 568px;
-    border: solid ;
+    border: solid;
     border-radius: flex;
     border-image-repeat: round stretch;
 
-} 
+}
 
 body {
     background-image: url("../img/viajados2.jpg");
@@ -198,12 +189,13 @@ body {
 }
 
 
-  
-  body{
-    margin: 0;   /* NUEVO */
-  }
-  
-    
+
+body {
+    margin: 0;
+    /* NUEVO */
+}
+
+
 .home {
     width: 100%;
     height: 100%;
@@ -226,46 +218,51 @@ body {
 
 .ndestino {
     color: #fdfdfd;
- }
- *{
+}
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
- }
- 
+}
 
 
- header {
+
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 2rem;
     background-color: transparent;
- }
+}
 
- .logo {
+.logo {
     max-width: 10rem;
     max-height: 10rem;
-    
- }
- .nav-list {
+
+}
+
+.nav-list {
     list-style: none;
     display: flex;
     gap: 1rem;
 
- }
- .nav-list li a {
+}
+
+.nav-list li a {
     text-decoration: none;
     color: #151313;
 
- }
- 
- .abrir-menu,
- .cerrar-menu {
+}
+
+.abrir-menu,
+.cerrar-menu {
     display: none;
- }
- @media screen and (max-width:550px) {
+}
+
+@media screen and (max-width:996px) {
+
     .abrir-menu,
     .cerrar-menu {
         display: block;
@@ -273,47 +270,81 @@ body {
         font-size: 3rem;
         background-color: transparent;
         cursor: pointer;
-   }
+    }
 
 
-   .abrir-menu{
-    color: #151313;
-   }
+    .abrir-menu {
+        color: #151313;
+    }
 
-   .cerrar-menu {
-    color: aliceblue;
+    .cerrar-menu {
+        color: aliceblue;
 
-   }
+    }
+
     .nav {
         opacity: 0;
         visibility: hidden;
         display: flex;
         flex-direction: column;
         align-items: end;
-        gap:1rem ;
+        gap: 1rem;
         position: absolute;
         top: 0;
         right: 0;
         bottom: 0;
         background-color: aqua;
         padding: 2rem;
-        box-shadow: 0 0 0 100vmax rgba(0,0,0, .5);  
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
 
     }
+
     .nav.visible {
         opacity: 1;
         visibility: visible;
     }
 
-    .nav-list{
+    .nav-list {
         flex-direction: column;
         align-items: end;
 
     }
+
     .nav-list a {
         text-decoration: none;
         color: #d5cdcd;
     }
 
 
- }
+}
+
+
+#menu:checked~.menu {
+    display: initial;
+}
+
+.item :hover {
+    color: #fff;
+}
+
+.btn {
+    padding: 10px 24px;
+    border-radius: 30px;
+    background-color: red;
+    color: #fff;
+    font-size: 600;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #9c062c;
+}
+
+.container {
+    display: center;
+}
+
+.row {
+    content: center
+    ;
+}
