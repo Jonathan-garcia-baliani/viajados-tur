@@ -1,0 +1,232 @@
+/*header*/
+
+header {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    width: 500px;
+    height: 280px;
+  }
+
+  .encabezado .boton {
+    display: none;
+}
+
+
+  /*destinos*/
+
+.destinos {
+    margin: 5vh;
+    font-size: 2rem;
+  
+    h3, p {
+      font-size: inherit;
+    }
+  }
+  
+  .contenedorDestinos div {
+    grid-template-columns: 1fr 1fr;
+    width: 1012px;
+    height: 586px;
+  }
+
+.contenedorDestinos {
+    margin: 20px;
+    border: 5px solid #333;
+    border-radius: 10px;
+  }
+  
+  .imgdestino {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .contenedorDestinos p {
+    background-color: #151313;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+
+  .ndestino {
+    color: #fdfdfd;
+  }
+
+  /*nav*/
+
+ 
+  
+  .abrir-menu, .cerrar-menu {
+    display: none;
+  }
+
+  
+  
+ 
+  .abrir-menu {
+    color: #151313;
+  }
+
+  .cerrar-menu {
+    color: aliceblue;
+  }
+
+  #menu:checked ~ .menu {
+    display: initial;
+  }
+  .item :hover {
+    color: #ddd8d8;
+  }
+  
+  
+
+    a {
+      text-decoration: none;
+      color: #d5cdcd;
+    }
+
+  .nav-list {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  
+    li a {
+      text-decoration:none ;
+      color: #151313;
+    }
+  }
+
+
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  
+
+  .nav-list {
+    flex-direction: column;
+    align-items: end;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    align-items: end;
+
+    a {
+      text-decoration: none;
+      color: #d5cdcd;
+    }
+  }
+
+
+
+
+  
+
+  .nav {
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 1rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: aqua;
+    padding: 2rem;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
+    z-index: 1;
+
+    &.visible {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+
+  .nav-list {
+    flex-direction: column;
+    align-items: end;
+
+    a {
+      text-decoration: none;
+      color: #d5cdcd;
+    }
+  }
+
+
+  /*Guias*/
+
+  .contenedorGuias {
+    flex-direction: column;
+  }
+  
+  .d-block w-100 {
+    width: 1023px;
+    height: 568px;
+    border: solid;
+    border-radius: flex;
+    border-image-repeat: round stretch;
+  }
+
+  
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  
+  
+  .logo {
+    max-width: 10rem;
+    max-height: 10rem;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: transparent;
+    z-index: 1;
+  }
+  
+
+  /*body*/
+  body {
+    background-image: url("../img/viajados2.jpg");
+    background-size: cover;
+    margin: 0;
+  
+  }
+
+  body {
+    background-image: url("../img/viajados2.jpg");
+    background-size: cover;
+    margin: 0;
+  
+    
+  }
+
+
+  /*Main*/
+
+  main {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: bottom;
+  }

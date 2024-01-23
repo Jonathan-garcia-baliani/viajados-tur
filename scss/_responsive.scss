@@ -1,0 +1,15 @@
+@media screen and (max-width: 996px) {
+    .abrir-menu, .cerrar-menu {
+      display: block;
+      border: 0;
+      font-size: 3rem;
+      background-color: transparent;
+      cursor: pointer;
+    }
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
