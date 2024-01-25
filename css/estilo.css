@@ -242,6 +242,26 @@ main {
   margin-bottom: 100px;
 }
 
+.contact-area {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+}
+.contact-area h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+.contact-area p {
+  color: #666;
+}
+
+.logo {
+  transition: transform 0.3s ease;
+}
+.logo:hover {
+  transform: rotate(360deg);
+}
+
 @media screen and (max-width: 996px) {
   .abrir-menu, .cerrar-menu {
     display: block;

@@ -271,3 +271,32 @@ main {
   margin-top: $nav-height;
   margin-bottom: 100px;
 }
+
+
+
+ // Estilos para el área de contacto
+ .contact-area {
+  background-color: #f4f4f4; // Color de fondo para el área de contacto
+  padding: 20px;
+  border-radius: 10px; // Bordes redondeados para un aspecto más agradable
+
+  h2 {
+    color: #333; // Color del texto del encabezado
+    margin-bottom: 15px;
+  }
+
+  p {
+    color: #666; // Color del texto normal
+  }
+}
+
+
+// Estilos para la animación del logo solo al pasar el cursor
+.logo {
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: rotate(360deg); // Puedes ajustar el valor según tu preferencia
+  }
+}
+
