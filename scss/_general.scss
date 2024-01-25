@@ -57,6 +57,14 @@ footer {
   
   .texto-footer {
     font-size: medium;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+
   }
   .home {
     width: 100%;
@@ -130,3 +138,5 @@ $texto-font-size: 16px;
     font-size: $texto-font-size;
   }
 }
+
+

@@ -235,10 +235,14 @@ header {
     height: 300px;
     object-fit: cover;
     object-position: bottom;
+
+    padding: 20px;
+    margin-top: 60px;
+    margin-bottom: 100px
   }
 
   $nav-background: #333; // Puedes ajustar el color de fondo según tu diseño
-$nav-height: 60px;     // Ajusta la altura de tu barra de navegación
+$nav-height: 0px;     // Ajusta la altura de tu barra de navegación
 
 body {
   margin: 0;
@@ -256,13 +260,14 @@ header {
 
 .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 10px;
   color: white; // Puedes ajustar el color del texto según tu diseño
 }
 
 /* Estilos adicionales para el contenido principal */
 main {
-  padding: 20px;
+  padding: 50px;
   margin-top: $nav-height;
+  margin-bottom: 100px;
 }
