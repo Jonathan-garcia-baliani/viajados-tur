@@ -7,9 +7,25 @@
       cursor: pointer;
     }
 }
+// Media queries para la responsividad
 
+@media only screen and (max-width: 600px) {
+  // Estilos específicos para pantallas pequeñas (móviles)
+  header {
+    font-size: 1.2rem;
+  }
+    }
 
-* {
-  margin: 0;
-  padding: 0;
-}
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  // Estilos específicos para pantallas medianas (tablets)
+  header {
+    font-size: 1.5rem;
+  }
+
+    }
+@media only screen and (min-width: 1025px) {
+  // Estilos específicos para pantallas grandes (escritorio)
+  header {
+    font-size: 1.8rem;
+  }
+    }
