@@ -199,6 +199,7 @@ header {
   .logo {
     max-width: 10rem;
     max-height: 10rem;
+    font-size: 1.5rem
   }
   
   header {
@@ -250,12 +251,14 @@ body {
 }
 
 header {
-  position: fixed;
+  position: fixed ;
   width: 100%;
   background-color: $nav-background;
-  height: $nav-height;
+  height: $nav-background;
   z-index: 1000;
   transition: transform 0.3s ease-in-out; // Transición suave al ocultar/mostrar
+  
+  
 }
 
 .nav {
@@ -267,9 +270,11 @@ header {
 
 /* Estilos adicionales para el contenido principal */
 main {
-  padding: 50px;
+  padding: 220px;
   margin-top: $nav-height;
   margin-bottom: 100px;
+  
+  
 }
 
 
@@ -299,4 +304,6 @@ main {
     transform: rotate(360deg); // Puedes ajustar el valor según tu preferencia
   }
 }
+
+
 
