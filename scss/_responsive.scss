@@ -8,9 +8,49 @@
     }
 }
 
-@media only screen and (min-width: 400px) {
-  // Estilos específicos para pantallas más grandes (tabletas y escritorio)
-  main {
-    padding: 40px;
-  }
+
+
+// Estilos base
+body {
+    font-size: 16px;
+}
+
+// Media queries para diferentes tamaños de pantalla
+@media only screen and (max-width: $breakpoint-small) {
+    // Estilos para pantallas pequeñas
+}
+
+@media only screen and (min-width: $breakpoint-small ) and (max-width: $breakpoint-medium) {
+    // Estilos para pantallas medianas
+}
+
+@media only screen and (min-width: $breakpoint-medium ) and (max-width: $breakpoint-large) {
+    // Estilos para pantallas grandes
+}
+
+@media only screen and (min-width: $breakpoint-large ) {
+    // Estilos para pantallas extra grandes
+}
+
+// Imágenes responsivas
+img, video, iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+// Uso de Flexbox o Grid para el diseño
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    // Otros estilos para el contenedor
+}
+
+// Ejemplo de cuadrícula CSS con Flexbox
+.item {
+    flex: 1;
+    margin: 10px;
+
+    // Otros estilos para los elementos de la cuadrícula
 }
