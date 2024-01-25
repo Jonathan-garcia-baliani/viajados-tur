@@ -24,7 +24,7 @@ h1, h2 {
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
-    color: #333;
+    color: $text-color;
   }
   
   input[type="text"], textarea {
@@ -73,7 +73,7 @@ footer {
   
 
   .btnFormulario {
-    background-color: #333;
+    background-color: $text-color;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -116,13 +116,13 @@ a {
 
 $caja-color: #f0f0f0;
 $caja-padding: 20px;
-$texto-color: #333;
+$texto-color: $text-color;
 $texto-font-size: 16px;
 
 // Definir variables para reutilizar valores comunes
 $caja-color: #f0f0f0;
 $caja-padding: 20px;
-$texto-color: #333;
+$texto-color: $text-color;
 $texto-font-size: 16px;
 
 // Estilo de la caja

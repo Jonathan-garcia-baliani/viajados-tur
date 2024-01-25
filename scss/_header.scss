@@ -243,23 +243,13 @@ header {
   }
 
   $nav-background: #aa8989; // Puedes ajustar el color de fondo según tu diseño
-$nav-height: 0px;     // Ajusta la altura de tu barra de navegación
-
+  $nav-height: 0px;     // Ajusta la altura de tu barra de navegación
+  
 body {
   margin: 0;
   font-family: Arial, sans-serif;
 }
 
-header {
-  position: fixed ;
-  width: 100%;
-  background-color: $nav-background;
-  height: $nav-background;
-  z-index: 1000;
-  transition: transform 0.3s ease-in-out; // Transición suave al ocultar/mostrar
-  
-  
-}
 
 .nav {
   display: flex;

@@ -220,15 +220,6 @@ body {
   font-family: Arial, sans-serif;
 }
 
-header {
-  position: fixed;
-  width: 100%;
-  background-color: #aa8989;
-  height: #aa8989;
-  z-index: 1000;
-  transition: transform 0.3s ease-in-out;
-}
-
 .nav {
   display: flex;
   justify-content: space-around;
