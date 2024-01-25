@@ -232,8 +232,8 @@ header {
 .nav {
   display: flex;
   justify-content: space-around;
-  padding: 10px;
-  color: white;
+  padding: 5px;
+  color: rgb(196, 190, 110);
 }
 
 /* Estilos adicionales para el contenido principal */
@@ -270,21 +270,6 @@ main {
     font-size: 3rem;
     background-color: transparent;
     cursor: pointer;
-  }
-}
-@media only screen and (max-width: 600px) {
-  header {
-    font-size: 1.2rem;
-  }
-}
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
-  header {
-    font-size: 1.5rem;
-  }
-}
-@media only screen and (min-width: 1025px) {
-  header {
-    font-size: 1.8rem;
   }
 }
 h1, h2 {
