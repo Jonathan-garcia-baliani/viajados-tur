@@ -8,17 +8,9 @@
     }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 400px) {
   // Estilos específicos para pantallas más grandes (tabletas y escritorio)
   main {
     padding: 40px;
-
-    h1 {
-      font-size: 2rem;
-    }
-
-    p {
-      font-size: 1.2rem;
-    }
   }
 }

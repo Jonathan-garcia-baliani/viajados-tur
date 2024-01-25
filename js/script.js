@@ -12,16 +12,3 @@ cerra.addEventListener("click",()=>{
 })
 
 
-let prevScrollPos = window.pageYOffset;
-
-window.onscroll = function() {
-  let currentScrollPos = window.pageYOffset;
-
-  if (prevScrollPos > currentScrollPos) {
-    document.querySelector('header').style.transform = 'translateY(0)';
-  } else {
-    document.querySelector('header').style.transform = `translateY(-${$nav-height}px)`;
-  }
-
-  prevScrollPos = currentScrollPos;
-};
