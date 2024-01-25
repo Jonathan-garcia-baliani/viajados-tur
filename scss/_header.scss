@@ -236,3 +236,33 @@ header {
     object-fit: cover;
     object-position: bottom;
   }
+
+  $nav-background: #333; // Puedes ajustar el color de fondo según tu diseño
+$nav-height: 60px;     // Ajusta la altura de tu barra de navegación
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: $nav-background;
+  height: $nav-height;
+  z-index: 1000;
+  transition: transform 0.3s ease-in-out; // Transición suave al ocultar/mostrar
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  color: white; // Puedes ajustar el color del texto según tu diseño
+}
+
+/* Estilos adicionales para el contenido principal */
+main {
+  padding: 20px;
+  margin-top: $nav-height;
+}

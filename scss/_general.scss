@@ -74,4 +74,59 @@ footer {
     cursor: pointer;
     margin-top: 10px;
   }
+
+
+  // Estilo del cuerpo del texto
+body {
+  font-family: $font-family;
+  font-size: $font-size;
+  line-height: $line-height;
+  color: $text-color;
+}
+
+// Estilo de encabezados (puedes ajustar según sea necesario)
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family;
+  color: $text-color;
+}
+
+// Estilo de párrafos
+p {
+  margin-bottom: 1em;
+}
+
+// Otros estilos según sea necesario (por ejemplo, enlaces, listas, etc.)
+a {
+  color: #007bff; // Cambia el color de los enlaces según tu preferencia
+  text-decoration: none;
   
+  &:hover {
+    text-decoration: underline; // Subraya los enlaces al pasar el ratón
+  }
+}
+
+
+$caja-color: #f0f0f0;
+$caja-padding: 20px;
+$texto-color: #333;
+$texto-font-size: 16px;
+
+// Definir variables para reutilizar valores comunes
+$caja-color: #f0f0f0;
+$caja-padding: 20px;
+$texto-color: #333;
+$texto-font-size: 16px;
+
+// Estilo de la caja
+.caja {
+  background-color: $caja-color;
+  padding: $caja-padding;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+  // Estilo del texto dentro de la caja
+  p {
+    color: $texto-color;
+    font-size: $texto-font-size;
+  }
+}
