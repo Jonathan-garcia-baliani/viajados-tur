@@ -280,16 +280,6 @@ footer {
   max-width: 40px;
 }
 
-/* SCSS */
-.nav {
-  display: none; /* Oculta el menú por defecto */
-  /* ... otros estilos ... */
-}
-
-.nav.visible {
-  display: block; /* Muestra el menú cuando tiene la clase 'visible' */
-}
-
 @media screen and (max-width: 996px) {
   .abrir-menu, .cerrar-menu {
     display: block;

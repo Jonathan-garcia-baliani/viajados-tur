@@ -326,12 +326,3 @@ footer {
 }
 
 
-/* SCSS */
-.nav {
-  display: none; /* Oculta el menú por defecto */
-  /* ... otros estilos ... */
-}
-
-.nav.visible {
-  display: block; /* Muestra el menú cuando tiene la clase 'visible' */
-}

@@ -36,27 +36,8 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   });
+  
 
 
-  // JavaScript
-document.addEventListener('DOMContentLoaded', function () {
-    const abrirBtn = document.getElementById('abrir');
-    const cerrarBtn = document.getElementById('cerrar');
-    const nav = document.getElementById('nav');
-    const elementosMenu = document.querySelectorAll('.nav-list .item');
+
   
-    abrirBtn.addEventListener('click', function () {
-      nav.classList.add('visible');
-    });
-  
-    cerrarBtn.addEventListener('click', function () {
-      nav.classList.remove('visible');
-    });
-  
-    // Agrega un manejador de eventos a cada elemento del menú para cerrar el menú al hacer clic
-    elementosMenu.forEach(function (elemento) {
-      elemento.addEventListener('click', function () {
-        nav.classList.remove('visible');
-      });
-    });
-  });
