@@ -58,40 +58,32 @@ header {
   .ndestino {
     color: #fdfdfd;
   }
-
+  
   /*nav*/
   
   nav ul li {
     list-style: none;
     display: inline-block;
     margin: 0 10px;
-  }
   
-  a {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: black;
-  }
-  
-  .nav-list {
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-  
-    li a {
+    a {
       text-decoration: none;
-      color: #151313;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: black;
     }
   }
+  
   .nav-list {
     list-style: none;
     display: flex;
     gap: 1rem;
   
-    li a {
-      text-decoration: none;
-      color: #151313;
+    li {
+      a {
+        text-decoration: none;
+        color: #151313;
+      }
     }
   }
   
@@ -160,10 +152,11 @@ header {
   .btn {
     padding: 10px 24px;
     border-radius: 30px;
-    background-color: red;
+    background-color: rgb(235, 84, 84);
     color: #fff;
-    font-size: 600;
+    font-size:$font-size;
     cursor: pointer;
+    margin-bottom: auto;
   
     &:hover {
       background-color: #9c062c;
@@ -297,3 +290,48 @@ main {
 
 
 
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  transition: background-color 0.3s ease; // Agrega transición para suavizar el cambio
+}
+
+nav.scrolled {
+  background-color: #fff; // Cambia el color de fondo cuando haces scroll
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); // Agrega sombra cuando haces scroll
+}
+
+.logo {
+  max-width: 150px; // Ajusta el ancho máximo según tus necesidades
+  transition: transform 0.3s ease, max-width 0.3s ease; // Agrega transición para suavizar el cambio
+  margin-top: 20px; // Agrega un espacio en la parte superior para mantener la distancia con el nav
+}
+
+.logo.scrolled {
+  transform: translateY(20px) scale(0.8); // Ajusta la escala y la posición al hacer scroll
+  max-width: 60px; // Ajusta el ancho máximo cuando haces scroll
+}
+
+/* Agrega estilos específicos para el footer */
+footer {
+  background-color: #333; // Color de fondo del footer
+  padding: 20px;
+}
+
+.logo.footer {
+  max-width: 40px; // Ajusta el ancho máximo en el footer
+}
+
+
+/* SCSS */
+.nav {
+  display: none; /* Oculta el menú por defecto */
+  /* ... otros estilos ... */
+}
+
+.nav.visible {
+  display: block; /* Muestra el menú cuando tiene la clase 'visible' */
+}
