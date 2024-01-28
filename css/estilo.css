@@ -564,4 +564,33 @@ form .btnFormulario:hover {
   background-color: #0056b3;
 }
 
+/*body*/
+body {
+  background-image: url("../img/viajados2.jpg");
+  background-size: cover;
+  margin: 0;
+}
+
+body {
+  background-image: url("../img/viajados2.jpg");
+  background-size: cover;
+  margin: 0;
+}
+
+/*Main*/
+main {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: bottom;
+  padding: 20px;
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
 /*# sourceMappingURL=estilo.css.map */
