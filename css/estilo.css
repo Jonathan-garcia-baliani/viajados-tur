@@ -338,6 +338,10 @@ form {
   /* Otros estilos según tus preferencias */
 }
 
+#page-container {
+  transition: background-color 0.3s;
+}
+
 body {
   font-family: "Arial", sans-serif;
   font-size: 16px;
@@ -599,6 +603,11 @@ form {
   border-radius: 8px;
   box-shadow: 0 0 20px rgba(238, 105, 105, 0.1);
   width: 300px;
+}
+
+body {
+  background-color: #ecf0f1;
+  transition: background-color 0.3s;
 }
 
 /*# sourceMappingURL=estilo.css.map */
