@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
   
 
-  
+
 
   function validateLogin() {
     var username = document.getElementById('username').value;
@@ -53,3 +53,10 @@ document.addEventListener("DOMContentLoaded", function () {
     // Redirige al usuario a la página de login.html
     window.location.href = 'login.html';
   }
+
+
+ 
+
+
+
+  
