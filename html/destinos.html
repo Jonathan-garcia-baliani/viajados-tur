@@ -26,6 +26,22 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
     <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon" />
+    <script>
+      // Función para ocultar el carrusel cuando se hace clic en el botón de hamburguesa
+      document.addEventListener('DOMContentLoaded', function() {
+        const abrirBtn = document.getElementById('abrir');
+        const cerrarBtn = document.getElementById('cerrar');
+        const carrusel = document.getElementById('carouselExampleDark');
+
+        abrirBtn.addEventListener('click', function() {
+          carrusel.style.display = 'none';
+        });
+
+        cerrarBtn.addEventListener('click', function() {
+          carrusel.style.display = 'block';
+        });
+      });
+    </script>
   </head>
 
   <body class="p-3 m-0 border-0 bd-example m-0 border-0">
