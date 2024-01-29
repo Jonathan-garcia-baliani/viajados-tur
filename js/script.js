@@ -38,6 +38,18 @@ document.addEventListener("DOMContentLoaded", function () {
   });
   
 
-
-
   
+
+  function validateLogin() {
+    var username = document.getElementById('username').value;
+    var password = document.getElementById('password').value;
+  
+    // Aquí puedes agregar la lógica de validación del usuario y contraseña
+    // Por ejemplo, puedes hacer una solicitud AJAX al servidor para autenticar al usuario.
+  
+    // Simulación de inicio de sesión exitoso
+    alert('Inicio de sesión exitoso para el usuario: ' + username);
+  
+    // Redirige al usuario a la página de login.html
+    window.location.href = 'login.html';
+  }
