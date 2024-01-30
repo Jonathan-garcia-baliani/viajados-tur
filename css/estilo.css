@@ -540,7 +540,7 @@ main {
   line-height: 1.6;
   color: #fff;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
-  background: linear-gradient(90deg, #c7c9c9, #b5b5b6 50%, transparent 50%);
+  background: linear-gradient(90deg, #131313, #0c0c0c 50%, transparent 50%);
   background-size: 200% 100%;
   transition: background-position 0.3s ease;
   transition: transform 0.3s ease, color 0.3s ease;
@@ -550,7 +550,7 @@ main {
 }
 .texto-contacto:hover {
   color: #222324;
-  transform: scale(1.1);
+  transform: scale(1);
 }
 
 form {

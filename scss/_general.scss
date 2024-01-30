@@ -116,12 +116,6 @@ footer {
 }
 
 
-
-
-
-
-
-
   input[type="text"],
   textarea {
     display: block;
@@ -200,7 +194,7 @@ main {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 
   // Agrega un suave resaltado al texto
-  background: linear-gradient(90deg, #c7c9c9, #b5b5b6 50%, transparent 50%);
+  background: linear-gradient(90deg, #131313, #0c0c0c 50%, transparent 50%);
   background-size: 200% 100%;
   transition: background-position 0.3s ease;
 
@@ -214,7 +208,7 @@ main {
   // Estilo al pasar el mouse
   &:hover {
     color: #222324; // Cambia el color al pasar el mouse
-    transform: scale(1.1); // Hace que el texto sea ligeramente más grande
+    transform: scale(1.0); // Hace que el texto sea ligeramente más grande
   }
 }
 
