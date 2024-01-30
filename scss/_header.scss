@@ -326,3 +326,40 @@ footer {
 }
 
 
+
+
+// Estilos
+.nav-container {
+  background-color: $background-color;
+  padding: $padding;
+  border-bottom: 2px solid $border-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  // Botones y lista de navegación
+  & button,
+  & ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+
+  // Botones
+  button {
+    margin-right: $margin-right;
+  }
+
+  // Enlaces de la lista
+  ul {
+    li {
+      margin-right: $margin-right;
+    }
+
+    a {
+      text-decoration: none;
+      color: $text-color;
+    }
+  }
+}

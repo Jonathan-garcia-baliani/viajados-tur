@@ -28,17 +28,17 @@
     <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon" />
     <script>
       // Función para ocultar el carrusel cuando se hace clic en el botón de hamburguesa
-      document.addEventListener('DOMContentLoaded', function() {
-        const abrirBtn = document.getElementById('abrir');
-        const cerrarBtn = document.getElementById('cerrar');
-        const carrusel = document.getElementById('carouselExampleDark');
+      document.addEventListener("DOMContentLoaded", function () {
+        const abrirBtn = document.getElementById("abrir");
+        const cerrarBtn = document.getElementById("cerrar");
+        const carrusel = document.getElementById("carouselExampleDark");
 
-        abrirBtn.addEventListener('click', function() {
-          carrusel.style.display = 'none';
+        abrirBtn.addEventListener("click", function () {
+          carrusel.style.display = "none";
         });
 
-        cerrarBtn.addEventListener('click', function() {
-          carrusel.style.display = 'block';
+        cerrarBtn.addEventListener("click", function () {
+          carrusel.style.display = "block";
         });
       });
     </script>
@@ -46,7 +46,7 @@
 
   <body class="p-3 m-0 border-0 bd-example m-0 border-0">
     <header>
-      <a >
+      <a>
         <img
           class="logo"
           src="../img/logo.png"
@@ -54,7 +54,7 @@
           alt="logo de coder viajes"
         />
       </a>
-    
+
       <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
       <nav class="nav" id="nav">
         <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
