@@ -95,3 +95,10 @@ img, video, iframe {
   #page-container {
     transition: background-color 0.3s;
   }
+
+  .content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
