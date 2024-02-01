@@ -1,5 +1,7 @@
 @charset "UTF-8";
 /*header*/
+@import "../css/estilo.css";
+@import 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css';
 header {
   border-bottom: 1px solid rgb(0, 0, 0);
   text-align: center;
@@ -216,6 +218,7 @@ body {
   justify-content: space-around;
   padding: 5px;
   color: rgb(196, 190, 110);
+  z-index: 1;
 }
 
 /* Estilos adicionales para el contenido principal */
@@ -437,31 +440,6 @@ form .btnFormulario:hover {
   background-color: #2980b9;
 }
 
-footer {
-  margin: 20px;
-  padding: 20px;
-  border-top: 1px solid black;
-  text-align: center;
-}
-
-.abajo {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  height: 40px;
-  color: white;
-}
-
-.texto-footer {
-  font-size: medium;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
 .home {
   width: 110%;
   height: 110%;
@@ -500,22 +478,6 @@ textarea {
   background-color: #e0a800;
 }
 
-.abajo {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  height: 40px;
-  background-color: #292b2c;
-  color: white;
-  text-align: center;
-  padding: 10px;
-}
-
-.texto-footer {
-  font-size: medium;
-  text-align: center;
-}
-
 body {
   min-height: 100vh;
   display: flex;
@@ -524,14 +486,6 @@ body {
 
 main {
   flex: 1;
-}
-
-.abajo {
-  height: 40px;
-  background-color: #292b2c;
-  color: white;
-  text-align: center;
-  padding: 5px;
 }
 
 .texto-contacto {
@@ -639,6 +593,73 @@ form {
 body {
   background-color: #ecf0f1;
   transition: background-color 0.3s;
+}
+
+/* Nueva animación con keyframes */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* Aplica la animación a un elemento específico */
+.caja {
+  animation: fadeIn 2s ease-in-out;
+}
+
+footer {
+  margin: 20px;
+  padding: 20px;
+  border-top: 1px solid black;
+  text-align: center;
+}
+
+.texto-footer {
+  font-size: medium;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.abajo {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  height: 40px;
+  background-color: #292b2c;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.colage {
+  margin-bottom: 80px;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+}
+
+.btnFormulario {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  margin-top: 10px;
+}
+
+.texto-contacto {
+  color: red;
 }
 
 /*# sourceMappingURL=estilo.css.map */
