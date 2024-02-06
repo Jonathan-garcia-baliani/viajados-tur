@@ -609,6 +609,10 @@ body {
   animation: fadeIn 2s ease-in-out;
 }
 
+.espacio {
+  margin-top: 20px; /* Puedes ajustar el valor según lo necesites */
+}
+
 footer {
   margin: 20px;
   padding: 20px;
